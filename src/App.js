@@ -1,14 +1,16 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import HomeScreen from "./screens/HomeScreen";
+import { Container } from 'react-bootstrap';
 
 const App = () => {
   return (
 <>
       <Header />
       <main className="py-3">
-        <container>
-          <h1>Welcome to ProShop</h1>
-        </container>
+        <Container>
+        <HomeScreen/>
+        </Container>
       </main>
       <Footer/>
  
